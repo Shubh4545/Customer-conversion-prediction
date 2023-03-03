@@ -14,9 +14,9 @@ subscribe to the insurance.
 
 Data
 Dataset is in csv format and uploaded as name of project.
-Data
 
-Features:
+
+Dataset Features:
 
 ● age (numeric)
 
