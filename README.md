@@ -32,7 +32,7 @@ campaign and for this client
 campaign (categorical:
 "unknown","other","failure","success")
 Output variable (desired target):
-● y - has the client subscribed to the insurance?
+● y - has the client subscribed to the insurance??
 
 Minimum Requirements
 It is not sufficient to just fit a model - the model must be
