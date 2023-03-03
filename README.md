@@ -1,6 +1,7 @@
 # Customer-conversion-prediction
 
-Problem Statement
+Welcome to the Customer-conversion-prediction- wiki!
+## Problem Statement
 You are working for a new-age insurance company and employ
 multiple outreach plans to sell term insurance to your
 customers. Telephonic marketing campaigns still remain one of
@@ -12,42 +13,39 @@ historical marketing data of the insurance company and are
 required to build a ML model that will predict if a client will
 subscribe to the insurance.
 
-Data
-Dataset is in csv format and uploaded as name of project.
+## Data
+The historical sales data is available as a file here in csv format.
 
 
-Dataset Features:
+## Features:
+1. age (numeric)
 
-● age (numeric)
+2. job : type of job
 
-● job : type of job
+3. marital : marital status
 
-● marital : marital status
+4. educational_qual : education status
 
-● educational_qual : education status
+5. call_type : contact communication type
 
-● call_type : contact communication type
+6. day: last contact day of the month (numeric)
 
-● day: last contact day of the month (numeric)
+7. mon: last contact month of year
 
-● mon: last contact month of year
+8. dur: last contact duration, in seconds (numeric)
 
-● dur: last contact duration, in seconds (numeric)
+9. num_calls: number of contacts performed during this
+   campaign and for this client
 
-● num_calls: number of contacts performed during this
-campaign and for this client
+10. prev_outcome: outcome of the previous marketing
+    campaign (categorical:
+    "unknown","other","failure","success")
+    Output variable (desired target):
 
-● prev_outcome: outcome of the previous marketing
+11. y - has the client subscribed to the insurance?
 
-campaign (categorical:
-"unknown","other","failure","success")
-Output variable (desired target):
+## Minimum Requirements
 
-● y - has the client subscribed to the insurance??
-
-
-
-Minimum Requirements
 It is not sufficient to just fit a model - the model must be
 analysed to find the important factors that contribute towards
 the price. AUROC must be used as a metric to evaluate the
