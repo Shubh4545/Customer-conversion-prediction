@@ -50,3 +50,6 @@ It is not sufficient to just fit a model - the model must be
 analysed to find the important factors that contribute towards
 the price. AUROC must be used as a metric to evaluate the
 performance of the models.
+
+## I have tried my best to create model on above problem
+colab link is [here](https://github.com/Shubh4545/Customer-conversion-prediction/blob/88d65852e5555b38ee166b28471501765847841c/Customer_conversion_prediction_3_0.ipynb)
