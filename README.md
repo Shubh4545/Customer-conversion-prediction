@@ -53,7 +53,7 @@ We used StandardScaler
 ## 7.Models
 ### We used Linear regression,xgboost and Random Forest 
  ![Models](https://github.com/Shubh4545/Customer-conversion-prediction/blob/15ec09e1efda7cb94f556fc9fa0b68817a1ea4bc/Resources/RESUL%20TABLE.png)
-
+### we can see that Dur(Duration) is most important feature in dataset
  ![feature importance](https://github.com/Shubh4545/Customer-conversion-prediction/blob/2eb11e9a622e9ab8c6e0bd4e4511d26f04472c4b/Resources/feature%20importnace.png)
 
 ## 7.Model Evaluation
