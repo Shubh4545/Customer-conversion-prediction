@@ -66,3 +66,21 @@ Based on the results obtained from the evaluation of the three classification mo
 This implies that XGBoost is a suitable model for predicting whether a client will subscribe to the insurance or not. It is recommended to deploy this model in the production environment to accurately target potential customers and optimize marketing costs.
 
 However, further analysis is recommended to identify the important features contributing to the model's performance and to fine-tune the model for better results.
+
+
+## Further Scope
+The current project has successfully built and evaluated a machine learning model to predict whether a customer will subscribe to an insurance policy. However, there is still room for improvement and further scope in this project, which includes:
+
+Feature Engineering: The current dataset includes limited features, and feature engineering could be performed to extract more relevant features from the given data or other external sources, which could enhance the model's performance.
+
+Hyperparameter Tuning: Hyperparameter tuning of the model could be performed to optimize its performance further. By varying the hyperparameters of the model and evaluating its performance, we could achieve better results.
+
+Deployment: The current model could be deployed in a production environment, integrated with the company's systems, and used to target potential customers effectively.
+
+Exploratory Data Analysis (EDA): Exploratory data analysis could be performed on the data to gain insights into the customers' behavior, which could help in understanding the customers' preferences, demographics, and other characteristics that influence their decision-making.
+
+Model Comparison: In addition to the models evaluated in this project, other classification models could also be implemented and compared to identify the best performing model for this problem.
+
+Regular Maintenance: As the company's customer base grows and changes, the model's performance might degrade. Regular monitoring and maintenance of the model are necessary to ensure it continues to perform effectively.
+
+Overall, these enhancements and improvements could help the insurance company to optimize its outreach efforts and improve the success rate of selling insurance policies to potential customers.
