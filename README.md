@@ -1,55 +1,15 @@
 # Customer-conversion-prediction
 
 Welcome to the Customer-conversion-prediction- wiki!
-## Problem Statement
-You are working for a new-age insurance company and employ
-multiple outreach plans to sell term insurance to your
-customers. Telephonic marketing campaigns still remain one of
-the most effective ways to reach out to people however they
-incur a lot of cost. Hence, it is important to identify the
-customers that are most likely to convert beforehand so that
-they can be specifically targeted via call. We are given the
-historical marketing data of the insurance company and are
-required to build a ML model that will predict if a client will
-subscribe to the insurance.
+## Project Goal
+The goal of the Customer Conversion Prediction project is to build a machine learning model that can predict whether a client will subscribe to the insurance based on their demographic and marketing data. The project aims to help the insurance company identify the customers that are most likely to convert, so that they can be targeted via call and the cost of telephonic marketing campaigns can be reduced. The historical sales data provided will be used to train and evaluate the performance of the machine learning models. The analysis of the model will be done to identify the important factors that contribute towards the conversion and the AUROC metric will be used to evaluate the model's performance. The main objective of the project is to develop an accurate and efficient model that can aid the insurance company in improving its sales conversion rate and reducing marketing costs.
 
-## Data
-The historical sales data is available as a file [here](https://github.com/Shubh4545/Customer-conversion-prediction/blob/2a93cd6257af1d9f76f2c947d5ed08af7fdc0a7a/dataset.csv) in csv format.
+#
 
+## Project Technologies used by me:
+For this project, I utilized Google Colab as my integrated development environment (IDE) for programming in Python. Google Colab is a robust tool provided by Google that is well-suited for implementing machine learning algorithms, performing data analytics and cleaning operations, and developing data science models.
 
-## Features:
-1. age (numeric)
+## Project Implementation Steps:
 
-2. job : type of job
-
-3. marital : marital status
-
-4. educational_qual : education status
-
-5. call_type : contact communication type
-
-6. day: last contact day of the month (numeric)
-
-7. mon: last contact month of year
-
-8. dur: last contact duration, in seconds (numeric)
-
-9. num_calls: number of contacts performed during this
-   campaign and for this client
-
-10. prev_outcome: outcome of the previous marketing
-    campaign (categorical:
-    "unknown","other","failure","success")
-    Output variable (desired target):
-
-11. y - has the client subscribed to the insurance?
-
-## Minimum Requirements
-
-It is not sufficient to just fit a model - the model must be
-analysed to find the important factors that contribute towards
-the price. AUROC must be used as a metric to evaluate the
-performance of the models.
-
-## I have tried my best to create model on above problem
-colab link is [here](https://github.com/Shubh4545/Customer-conversion-prediction/blob/88d65852e5555b38ee166b28471501765847841c/Customer_conversion_prediction_3_0.ipynb)
+## 1.Libraries Import and Load Dataset
+We have imported requrired libraries and also loaded [dataset](https://github.com/Shubh4545/Customer-conversion-prediction/blob/53c1bda14fe9d7de665f6d17ec3976c9d6e4fa31/dataset.csv)
