@@ -21,15 +21,38 @@ we have used functions like remove duplicates,dropped null values,missing values
 For the good model fit and accuret prediction we've explore the data and done Univariate Analysis, Bivariate Analysis, Correlation Check. Data type check and take dummies.
 
 ### 3.1 Univariate Analysis
-We checked dependendent variable 
 ![y](https://github.com/Shubh4545/Customer-conversion-prediction/blob/eacbe608c8ec7e3a3a12abe3dedf50b2ec96642e/Resources/DependentFeature.png)
-
 #### The class distribution in the target variable is ~89:11 indicating an imbalance dataset
+
+![age](https://github.com/Shubh4545/Customer-conversion-prediction/blob/15ec09e1efda7cb94f556fc9fa0b68817a1ea4bc/Resources/Age_Univariate.png)
+#### Age 
 
 ### 3.2 Bivariate Analysis
 
+We've check and learn that which type of occupations have more chances to subscribe our term insurance policy.
+![job-VS-Y](https://github.com/Shubh4545/Customer-conversion-prediction/blob/15ec09e1efda7cb94f556fc9fa0b68817a1ea4bc/Resources/job%20vs%20Purchased.png)
 
+### 3.3 Correlation 
+We've checked correlation between differant variables. We can see here Duration of Call is Highly correlated to our target variable.
 
+![Corelation](https://github.com/Shubh4545/Customer-conversion-prediction/blob/15ec09e1efda7cb94f556fc9fa0b68817a1ea4bc/Resources/corr.png)
 
+## 4.Encoding
+we have used Label and one hot encodeing for this features['job', 'marital', 'education_qual', 'call_type', 'mon', 'prev_outcome']
 
+## 5.Split Dataset
+SMOTE Oversampling we are using due to imbalence data
 
+0    39477
+
+1    29496
+
+## 6.Scalling
+We used StandardScaler
+
+## 7.Models
+### We used Linear regression,xgboost and decision tree classifire 
+ ![Models](https://github.com/Shubh4545/Customer-conversion-prediction/blob/15ec09e1efda7cb94f556fc9fa0b68817a1ea4bc/Resources/RESUL%20TABLE.png)
+
+ ![feature importance](https://github.com/Shubh4545/Customer-conversion-prediction/blob/2eb11e9a622e9ab8c6e0bd4e4511d26f04472c4b/Resources/feature%20importnace.png)
+ 
