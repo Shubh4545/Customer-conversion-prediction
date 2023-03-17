@@ -51,8 +51,18 @@ SMOTE Oversampling we are using due to imbalence data
 We used StandardScaler
 
 ## 7.Models
-### We used Linear regression,xgboost and decision tree classifire 
+### We used Linear regression,xgboost and Random Forest 
  ![Models](https://github.com/Shubh4545/Customer-conversion-prediction/blob/15ec09e1efda7cb94f556fc9fa0b68817a1ea4bc/Resources/RESUL%20TABLE.png)
 
  ![feature importance](https://github.com/Shubh4545/Customer-conversion-prediction/blob/2eb11e9a622e9ab8c6e0bd4e4511d26f04472c4b/Resources/feature%20importnace.png)
- 
+
+## 7.Model Evaluation
+### We are going to comapre auroc curve 
+![model Evaluaton](https://github.com/Shubh4545/Customer-conversion-prediction/blob/269361de6c388e3960ddb08f55e79542d93ad7c0/Resources/auroc%20curve.png)
+
+# Conclusion
+Based on the results obtained from the evaluation of the three classification models (Logistic Regression, XGBoost, and Decision Tree Classifier) on the given historical data, XGBoost outperformed the other models with the highest accuracy score of 93.54% and the highest AUROC score of 0.986.
+
+This implies that XGBoost is a suitable model for predicting whether a client will subscribe to the insurance or not. It is recommended to deploy this model in the production environment to accurately target potential customers and optimize marketing costs.
+
+However, further analysis is recommended to identify the important features contributing to the model's performance and to fine-tune the model for better results.
